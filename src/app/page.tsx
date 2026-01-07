@@ -232,6 +232,75 @@ function HomeClient() {
                     国内用户可能需要加速GitHub
                   </div>
                 </div>
+                <div className='relative group'>
+                  <button className='inline-flex items-center rounded-lg bg-purple-600 px-3 py-2 text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 text-sm'>
+                    <svg className='w-4 h-4 mr-1' viewBox='0 0 24 24' fill='currentColor'>
+                      <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z'/>
+                    </svg>
+                    Anime4K 增强
+                    <svg className='w-4 h-4 ml-1' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path></svg>
+                  </button>
+                  <div className='absolute left-0 mt-1 w-56 rounded-md shadow-lg bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-auto'>
+                    <div className='py-1' role='menu' aria-orientation='vertical' aria-labelledby='options-menu'>
+                      <a
+                        href='https://microsoftedge.microsoft.com/addons/detail/anime4k-webextension/ffopffngebibpmeodlhhkdlaejnmdlam'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700 flex items-center'
+                        role='menuitem'
+                      >
+                        <span className='inline-flex items-center justify-center w-5 h-5 mr-2'>
+                          <svg className='w-4 h-4' viewBox='0 0 16 16' fill='currentColor'>
+                            <path d='M7.5 0c-2.2 0-4 1.8-4 4 0 2.2 1.8 4 4 4s4-1.8 4-4c0-2.2-1.8-4-4-4zm0 7c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3zm-7-3c0 3.9 3.1 7 7 7s7-3.1 7-7-3.1-7-7-7-7 3.1-7 7z'/>
+                          </svg>
+                        </span>
+                        Edge 插件
+                      </a>
+                      <a
+                        href='https://chromewebstore.google.com/detail/anime4k-webextension/hpmbccepehpoanjpjkamfdpdkbmfmhek'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700 flex items-center'
+                        role='menuitem'
+                      >
+                        <span className='inline-flex items-center justify-center w-5 h-5 mr-2'>
+                          <svg className='w-4 h-4' viewBox='0 0 24 24' fill='currentColor'>
+                            <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z'/>
+                          </svg>
+                        </span>
+                        Chrome 插件
+                      </a>
+                      <a
+                        href='https://addons.mozilla.org/zh-CN/firefox/addon/anime4k-webextension/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700 flex items-center'
+                        role='menuitem'
+                      >
+                        <span className='inline-flex items-center justify-center w-5 h-5 mr-2'>
+                          <svg className='w-4 h-4' viewBox='0 0 24 24' fill='currentColor'>
+                            <path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z'/>
+                          </svg>
+                        </span>
+                        Firefox 插件
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <p className='text-sm text-gray-600 dark:text-gray-400 mb-2 text-center'>
+                  由于在线画质模糊所以添加了一个Anime4K插件优化一下体验！需要的可以去使用！
+                </p>
+                <a
+                  href='http://hiyori.webn.cc/Anime4K.zip'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='inline-flex items-center rounded-lg bg-green-600 px-3 py-2 text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 text-sm mb-2'
+                >
+                  <svg className='w-4 h-4 mr-1' viewBox='0 0 24 24' fill='currentColor'>
+                    <path d='M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z'/>
+                  </svg>
+                  Anime4K 下载
+                </a>
                 <Link
                   href='https://github.com/xingyuanbaoyue/MoonTV'
                   target='_blank'
