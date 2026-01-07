@@ -290,6 +290,11 @@ function HomeClient() {
                 <p className='text-sm text-gray-600 dark:text-gray-400 mb-2 text-center'>
                   由于在线画质模糊所以添加了一个Anime4K插件优化一下体验！需要的可以去使用！
                 </p>
+                <p className='text-xs text-yellow-600 dark:text-yellow-400 mb-2 text-center'>
+                  如果下载失败，请尝试：
+                  <br />1. 右键复制链接地址，在新窗口打开下载
+                  <br />2. 使用多线程下载工具（如 <a href='https://www.neatdownloadmanager.com/index.php/en/' target='_blank' rel='noopener noreferrer' className='underline'>Neat Download Manager</a>）下载
+                </p>
                 <a
                   href='http://hiyori.webn.cc/Anime4K.zip'
                   download='Anime4K.zip'
